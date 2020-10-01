@@ -1,4 +1,4 @@
-## scratchjr-website
+## scratchjr- An Amazing website
 #### Code for the [ScratchJr website](https://scratchjr.org)
 
 [![Build Status](https://travis-ci.org/LLK/scratchjr-website.svg?branch=develop)](https://travis-ci.org/LLK/scratchjr-website)
@@ -20,7 +20,7 @@ Note: There will be a warning about a peer dependency on jquery. You can ignore 
 npm start
 ```
 
-During development, `npm start` watches any update you make to files in either `./static` or `./src` and triggers a rebuild of the project.  In development the build is stored in memory, and not served from the `./build` directory.
+During development, `npm start` watches any update you make to files in either `./static` or `./src` and triggers a rebuild of the project. In development the build is stored in memory, and not served from the `./build` directory.
 
 When running `npm start`, here are some important log messages to keep an eye out for:
 * `webpack: bundle is now VALID.` – the bundle has been loaded into memory and is now viewable in the browser. This will show up both once `npm start` has completed its setup, and also once updates you make to files have been re-compiled for viewing in the browser.
